@@ -17,22 +17,22 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body class="bg-[#d6e2f0]">
   
-  <div class="flex flex-row justify-center items-center h-screen">
+  <main class="flex flex-row justify-center items-center h-screen min-h-[40rem] max-h-[42rem]">
     
-    <div class="flex flex-col bg-white h-5/6 w-5/6 max-w-sm  items-center rounded-lg">
-        <div class="p-3 ">
-          <img  class="rounded-lg " src="/images/image-qr-code.png"/>
-        </div>
-         <div class="flex flex-col pl-4 pr-4 pt-2  items-center ">
-          <h2 class="text-[#1f3251] font-outfilt font-semibold text-xl">Improve your front end <br> skills by building projects</h2>
+    <card class="flex flex-col bg-white h-5/6 w-5/6 max-w-sm items-center rounded-lg ">
+       <qr class="p-3 h-4/6 w-full">
+                     <img  class="rounded-lg h-full w-full" src="/images/image-qr-code.png" alt="QR code image"/>
+       </qr>
+        <description class="flex flex-col h-2/6 w-full items-center">
+          <h1 class="text-[#1f3251] font-outfilt font-semibold text-xl">Improve your front end <br> skills by building projects</h1>
           <p class="text-base font-outfilt text-center pt-3 text-[#7b879d]">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
-        </div> 
-        
-    </div>
+        </description>
+      </card>
 
-  </div>
+  </main>
   
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
